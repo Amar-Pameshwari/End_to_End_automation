@@ -4,6 +4,7 @@
 
 <listeners>
 		<listener class-name="Reports.ExtentReporterNG" />	
+		<listener class-name="ExecuteFailedTC.RetryFailedTC"/>
 </listeners>
 	
 <test name="petStoreAllTestCases" allow-return-values="true">

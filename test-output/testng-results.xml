@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3522" started-at="2021-05-11T14:06:19 IST" finished-at="2021-05-11T14:06:23 IST">
+  <suite name="Default suite" duration-ms="3605" started-at="2021-06-16T20:14:20 IST" finished-at="2021-06-16T20:14:23 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3522" started-at="2021-05-11T14:06:19 IST" finished-at="2021-05-11T14:06:23 IST">
+    <test name="Default test" duration-ms="3605" started-at="2021-06-16T20:14:20 IST" finished-at="2021-06-16T20:14:23 IST">
       <class name="FindBusStopLocation.BusLocationFind">
-        <test-method status="FAIL" signature="BusStopLocationFind()[pri:0, instance:FindBusStopLocation.BusLocationFind@3578436e]" name="BusStopLocationFind" duration-ms="3461" started-at="2021-05-11T14:06:19 IST" finished-at="2021-05-11T14:06:23 IST">
+        <test-method status="FAIL" signature="BusStopLocationFind()[pri:0, instance:FindBusStopLocation.BusLocationFind@3578436e]" name="BusStopLocationFind" duration-ms="3539" started-at="2021-06-16T20:14:20 IST" finished-at="2021-06-16T20:14:23 IST">
           <exception class="org.json.JSONException">
             <message>
-              <![CDATA[JSONObject["$.currentTime"] not found.]]>
+              <![CDATA[JSONObject["data/stops[2]/code"] not found.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.json.JSONException: JSONObject["$.currentTime"] not found.
+              <![CDATA[org.json.JSONException: JSONObject["data/stops[2]/code"] not found.
 at org.json.JSONObject.get(JSONObject.java:572)
-at FindBusStopLocation.BusLocationFind.BusStopLocationFind(BusLocationFind.java:35)
+at FindBusStopLocation.BusLocationFind.BusStopLocationFind(BusLocationFind.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

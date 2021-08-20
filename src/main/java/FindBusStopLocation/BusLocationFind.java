@@ -1,6 +1,6 @@
 package FindBusStopLocation;
 
-import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -34,9 +34,7 @@ public class BusLocationFind
 		AssertionsUtilities.verifyStatusCode(response, 200);
 		AssertionsUtilities.verifyStatusLine(response, "HTTP/1.1 200 200");
 			
-		
-		
-		
+				
 		//Validating all response for Stops[0]
 		log.info("************Start the validation for Stops[0]*************");
 		String currentTime = JsonObject_TestUtils.getValueByJPath(jsonObjectResponse, "/currentTime");
