@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FindBusStopLocation.BusLocationFind">
+      <class name="FindBusStopLocation.json2Pojo">
         <methods>
-          <include name="BusStopLocationFind"/>
+          <include name="agencyResponseValiatio"/>
+          <include name="routesResponseValiatio"/>
+          <include name="StopsResponseValidation"/>
         </methods>
-      </class> <!-- FindBusStopLocation.BusLocationFind -->
+      </class> <!-- FindBusStopLocation.json2Pojo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
